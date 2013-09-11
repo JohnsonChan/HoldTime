@@ -1,0 +1,150 @@
+<resources>
+
+    <!-- global -->
+    <string name="app_name">Hold住時間</string>
+    <string name="app_company">Ugeek科技 版權所有</string>
+    <string name="app_copyright_date">Copyright © 2012-2015 Ugeek.</string>
+    <string name="app_version">程序版本：1.6.1</string>
+    <string name="app_all_right">All Rights Reserved.</string>
+    <string name="app_back">返回</string>
+    <string name="app_cancel">取消</string>
+    <string name="app_confirm">保存</string>
+    <string name="app_yes">是</string>
+    <string name="app_no">否</string>
+    <string name="app_today">今天</string>
+    <string name="app_tomorrow">明天</string>
+    <!-- 主頁面 -->
+    <string name="tab_finish">完成</string>
+    <string name="tab_unfinish">未完成</string>
+    <string name="tab_dated">過期</string>
+    <string name="tab_settings">設置</string>
+    <string name="tab_more">更多</string>
+    <!-- 其他 -->
+    <string name="date_picker_format_year">%1$d年</string>
+    <string name="date_picker_format_month">%1$d月</string>
+    <string name="date_picker_format_day">%1$d日</string>
+    <string name="str_help_str">關于</string>
+    <string name="str_help_context">你別看我歲數小(版本:1.6.1),但我總結了,其實人這一生可短暫啦,眼一閉一睜,一天過去了,哈,眼一閉不睜,這輩子就過去了,哈.假如你活到100歲,在世上也就3萬5千多天.想想,這3萬多天裏,有多少天是你Hold得住的呢?不管過去,hold住現在,成就將來.時間在流逝,hold住的時間好比階梯,會將你送到巅峰.在過去的半年裏,由ugeek團隊打造《Hold住時間》已經成功幫助上萬用戶Hold住了生活中大量流失、浪費的時間，你也可以，還等什麽...馬上加入進來，讓我們一起Hold住時間吧！</string>
+    <string name="vip_use">VIP功能</string>
+
+    <!-- 新建任務 -->
+    <string name="new_set_remind_time">請設置提醒時間</string>
+    <string name="new_set_remind_date">請設置任務日期</string>
+    <string name="new_date_out">任務日期是過去的</string>
+    <string name="new_time_out">提醒時間是過去的</string>
+    <string name="new_title">新建任務</string>
+    <string name="new_set_pro">請設置任務優先級別</string>
+    <string name="new_set_type">請設置任務類型</string>
+    <string name="new_no_null_tips">請輸入任務，內容不能為空</string>
+    <string name="new_set_date_tips">請設置任務日期、提醒時間</string>
+    <string name="new_set_content">請填寫任務內容</string>
+    <string name="new_content_not_null">主題不能為空</string>
+    <!-- vip彈出框 -->
+    <string name="vip_title_tips">溫馨提示</string>
+    <string name="vip_content_tips">尊敬的用戶，您目前還不是VIP會員，不具備VIP會員特權。僅需2000比特幣，就可以成為我們的VIP會員，享受更多高級特權，迅速提升等級...</string>
+    <string name="vip_buy">成為VIP會員</string>
+    <string name="vip_bit_no_enough">比特幣不夠</string>
+    <string name="vip_get_bit">賺取更多比特幣</string>
+    <string name="vip_cancel">暫不考慮</string>
+    <string name="vip_score_to_bit">積分兌換比特幣1-1</string>
+    <string name="vip_bit_to_score">比特幣兌換積分1-1</string>
+    <string name="vip_score_no_enough">積分不夠</string>
+    <!-- 設置頁面 -->
+    <string name="settings_single">任務單個提醒</string>
+    <string name="settings_cycle">周期提醒完成情況</string>
+    <string name="settings_cycle_time">周期提醒循環時間</string>
+    <string name="settings_notification_cover">消息提醒覆蓋之前的</string>
+    <string name="settings_show_dated">未完成頁面顯示過期</string>
+    <string name="settings_show_tomorrow">桌面便簽顯示明天</string>
+    <string name="settings_vip">VIP會員特權</string>
+    <string name="settings_rank">Hold住等級</string>
+    <string name="settings_game">玩遊戲賺比特幣</string>
+    <string name="settings_app">試用應用賺比特幣</string>
+    <string name="settings_bit">您持有比特幣</string>
+    <string name="settings_strategy">Hold住攻略</string>
+    <string name="settings_get_rank">正在獲取網絡排名...</string>
+    <string name="settings_net_rank">網絡排名</string>
+    <!-- 更多頁面 -->
+    <string name="more_share_content">親！《Hold住時間》是個不錯的應用哦，能很好的幫助你管理時間，遠離懶惰，Hold住那些浪費掉的時間耶，趕緊下一個吧，這是下載地址：http://files.cnblogs.com/itc0z0sti/HoldTime.apk 一定要下載哦，嘻嘻</string>
+    <string name="more_share_app">分享應用給好友</string>
+    <string name="more_go_grade">給應用加分</string>
+    <string name="more_feedback">意見反饋</string>
+    <string name="more_check_version">檢查更新</string>
+    <string name="more_app_help">應用手冊</string>
+    <string name="more_app_about">關于應用</string>
+    <string name="more_app_use">功能介紹</string>
+    <string name="more_exit">退出應用</string>
+    <!-- hold住拱北、攻略 -->
+    <string name="hold_popup_little_title">比特幣，積分都是虛擬的，用戶無需擔心會有任何損失！網絡排名主要根據用戶的積分高低，積分越高排名會越靠前，等級也會越高</string>
+    <string name="hold_popup_bit_title">如何獲得更多比特幣：</string>
+    <string name="hold_popup_bit2">比特幣(Bitcoin)是一種網絡虛擬貨幣，可以理解為數據流量。比特幣可以通過玩遊戲，試用軟件獲得，下載試用的越多，比特幣也就越多。</string>
+    <string name="hold_popup_bit1">按時完成自己創建的任務、試玩遊戲，試用軟件，分享應用給好友...</string>
+    <string name="hold_popup_bit1_no">按時完成自己創建的任務、分享應用給好友...</string>
+    <string name="hold_popup_bit2_no">比特幣(Bitcoin)是一種網絡虛擬貨幣，可以理解為數據流量。可以通過分享應用給好友獲得，好友下載安裝的越多，比特幣也就越多</string>
+    <string name="hold_remind_title">溫馨提示：</string>
+    <string name="hold_remind_content">所謂試用，就需有一定時長限制，一般不低于3分鍾，少于3分鍾將沒有比特幣贈送。下載試用同一個應用只能獲取比特幣一次，本産品內所有推薦應用均為官方提供，經過嚴格測試的無害，免費應用。綠色安全，您大可以放心安裝試用。其中部分標明注冊的應用就需要注冊後試用方能獲得比特幣，用戶大可繞過注冊選擇標明為試用的應用下載，同樣可獲得比特幣</string>
+    <string name="hold_popup_score_title">如何獲取更多積分：</string>
+    <string name="hold_popup_score_content">積分可以看成是經驗值，完成的任務越多積分也就越多，等級也就越高。積分和比特幣是1:1的關系，可以相互兌換。（非VIP會員完成個任務得到2個積分，VIP會員完成1個任務得到10個積分）</string>
+    <!-- vip頁面 -->
+    <string name="vip_add_type">增加任務類型</string>
+    <string name="vip_del_tasktype">刪除任務類型</string>
+    <string name="vip_chg_tasktype">修改任務類型</string>
+    <string name="vip_unfinish_type">未完成任務類型</string>
+    <string name="vip_unfinish_pro">未完成任務優先級</string>
+    <string name="vip_finish_type">完成任務類型</string>
+    <string name="vip_finish_pro">完成任務優先級</string>
+    <string name="vip_dated_type">過期任務類型</string>
+    <string name="vip_dated_pro">過期任務優先級</string>
+    <string name="vip_data_backup">備份數據</string>
+    <string name="vip_data_recovery">恢複數據</string>
+    <string name="vip_data_clear">清空數據</string>
+    <string name="vip_change_type">修改任務類型</string>
+    <string name="vip_type_exist">類型已經存在</string>
+    <string name="vip_type_not_null">任務類型不能為空</string>
+    <string name="vip_no_type_del">沒有任務類型可刪除</string>
+    <string name="vip_del_type">刪除任務類型</string>
+    <string name="vip_no_type_change">沒有任務類型可修改</string>
+    <string name="vip_no_type_set">沒有任務類型可設置</string>
+    <string name="vip_unfinish_show_type">未完成頁面顯示任務類型為：</string>
+    <string name="vip_finish_show_type">完成頁面顯示任務類型為</string>
+    <string name="vip_dated_show_type">過期頁面顯示任務類型為：</string>
+    <string name="vip_unfinish_show_pro">未完成頁面顯示優先級別為：</string>
+    <string name="vip_finish_show_pro">完成頁面顯示優先級別為：</string>
+    <string name="vip_dated_show_pro">過期頁面顯示優先級別為：</string>
+    <string name="vip_backup_success">備份成功</string>
+    <string name="vip_recover_success">恢複成功,請重啓應用</string>
+    <string name="vip_data_copy_error">數據複制出錯</string>
+    <string name="vip_no_data_record">目前沒有數據記錄</string>
+    <string name="vip_no_backup_data">未備份數據</string>
+    <!-- notification提醒 -->
+    <string name="notification_cycle">今天，%1$d個任務未完成，%2$d個已過期！</string>
+    <string name="notification_click">點擊查看 - Hold住時間</string>
+    <!-- 桌面 -->
+    <string name="desktop_today">今天</string>
+    <string name="desktop_tomorrow">明天</string>
+    <string name="deskto_no_tips">請點擊新建！</string>
+    <!-- 上下文菜單 -->
+    <string name="menu_type">任務類型：</string>
+    <string name="menu_priority">優先級別：</string>
+    <string name="menu_delete">刪除任務</string>
+    <string name="menu_finish_task">完成任務</string>
+    <string name="menu_change_task">修改任務</string>
+    <string name="menu_create_task">新建任務</string>
+    <string name="menu_reset_task">重做該任務</string>
+    <string name="menu_select_your_action">請選擇您的動作：</string>
+    <!-- 功能介紹 -->
+    <string name="use_main_title">《Hold住時間》功能介紹</string>
+    <string name="use_title">Hold住時間旨在幫助您更好地管理時間，可以方便地記錄您每天Hold住的時間，同時擁有備忘提醒，任務類型分類等各種人性化功能</string>
+    <string name="use_show_title">未完成、過期、完成：</string>
+    <string name="use_unfinish">未完成頁面：顯示未完成的任務，對于過期的任務是否顯示，可以通過設置（未完成頁面顯示過期）為是讓其顯示過期的任務，如果不想顯示可以設置為否</string>
+    <string name="use_dated">過期頁面：顯示過期且未完成的任務</string>
+    <string name="use_finish">完成頁面：顯示完成的任務，不管過不過期。通過長按某個任務，或某一天的任務來重置或刪除</string>
+    <string name="use_settings_title">設置：</string>
+    <string name="use_remind">提醒功能：單個任務提醒，設置為是的情況下，會像鬧鍾一樣在您設置的時間點提醒您做您創建的任務，周期提醒設置為是，會根據您設置的循環時間，周期提醒您有多少任務未完成，有多少已經過期，以便您調節任務進度，調節效率等</string>
+    <string name="use_show">顯示功能：消息提醒覆蓋之前的，當有消息提醒時，您的手機任務欄（標題處）會有提示，而當您設置創建了多個任務時，會有多個提示，如果您不清除，會顯示多個提醒，而如果您設置為是，那麽後來的提醒會覆蓋之前的</string>
+    <string name="use_vip">功能擴展：為了督促用戶每天創建任務，並按時完成任務。《Hold住時間》加入了等級和網絡排名等遊戲性質的功能。積分越高，排名越靠前，等級也越高。積分可以通過按時完成您創建的任務，來獲得，也可以通過試玩遊戲等獲得比特幣，比特幣轉積分，以達到提升等級。成為VIP成員後，不僅能獲得更多巨贊的功能，同時也讓您更容易獲得積分，等級升的越快</string>
+    <string name="use_more_title">更多：</string>
+    <string name="use_more_extend">推廣：尊敬的用戶，如果您覺得《Hold住時間》功能不錯的話，您可以分享給您的好友，舉手之勞，送人玫瑰，手留余香。我們將贈送您50個比特幣，也可以到應用商店給好評哦</string>
+    <string name="use_more_feedback">意見反饋：您可以將您對軟件的意見，建議，或者不明白的地方反饋給我們，我們將在1個工作日內回複您</string>
+
+</resources>

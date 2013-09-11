@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/cfinish" android:title="@string/menu_finish_task" />
+    <item android:id="@+id/cchange" android:title="@string/menu_change_task" />
+    <item android:id="@+id/cdelete" android:title="@string/menu_delete" />
+    <item android:id="@+id/ccreate" android:title="@string/menu_create_task" />
+</menu>

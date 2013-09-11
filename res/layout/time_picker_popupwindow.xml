@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" xmlns:tools="http://schemas.android.com/tools">
+
+    <kankan.wheel.widget.WheelView
+        android:id="@+id/wv_time_picker_hour"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_weight="1"/>
+
+    <kankan.wheel.widget.WheelView
+        android:id="@+id/wv_time_picker_minute"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:ignore="MissingRegistered" />
+
+</LinearLayout>

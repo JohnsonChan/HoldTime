@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/body_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/hold_title_bg"
+        android:gravity="center_vertical" >
+
+        <TextView
+            style="@style/TextView.Middle.White"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/vip_use" />
+
+        <Button
+            android:id="@+id/btn_vip_back"
+            style="@style/TextView.Small.White"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/title_left_btn_bg"
+            android:text="@string/app_back" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadingEdge="none"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.czs.gtd.api.CornerListView
+                android:id="@+id/more_type"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="15dip"
+                android:background="@drawable/corner_list_bg"
+                android:cacheColorHint="#00000000"
+                android:divider="#b6b5b5"
+                android:dividerHeight="1dp" />
+
+            <com.czs.gtd.api.CornerListView
+                android:id="@+id/more_show"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/corner_list_bg"
+                android:cacheColorHint="#00000000"
+                android:divider="#b6b5b5"
+                android:dividerHeight="1dp" />
+
+            <com.czs.gtd.api.CornerListView
+                android:id="@+id/more_data"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="15dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:background="@drawable/corner_list_bg"
+                android:cacheColorHint="#00000000"
+                android:divider="#b6b5b5"
+                android:dividerHeight="1dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

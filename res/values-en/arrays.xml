@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="prioritys">
+        <item>Important and Urgent</item>
+        <item>Emergency not Important</item>
+        <item>Important not Urgent</item>
+        <item>not Urgent not Important</item>
+    </string-array>
+    <string-array name="types">
+        <item>Study</item>
+        <item>Work</item>
+        <item>Personal</item>
+        <item>Life</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="cycle_time">
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>A quarter</item>
+        <item>20 minutes</item>
+        <item>Half hour</item>
+        <item>40 minutes</item>
+        <item>50 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>4 hours</item>
+        <item>5 hours</item>
+        <item>6 hours</item>
+        <item>7 hours</item>
+        <item>8 hours</item>
+        <item>9 hours</item>
+        <item>10 hours</item>
+        <item>11 hours</item>
+        <item>12 hours</item>
+        <item>13 hours</item>
+        <item>14 hours</item>
+        <item>15 hours</item>
+        <item>16 hours</item>
+        <item>17 hours</item>
+        <item>18 hours</item>
+        <item>19 hours</item>
+        <item>20 hours</item>
+        <item>21 hours</item>
+        <item>22 hours</item>
+        <item>23 hours</item>
+        <item>1 day</item>
+    </string-array>
+    <string-array name="hold_ranks">
+        <item>Hold Poor</item>
+        <item>Hold rawness</item>
+        <item>Hold Enter</item>
+        <item>Hold Plebs</item>
+        <item>Hold Better</item>
+        <item>Hold Highlight</item>
+        <item>Hold Teacher</item>
+        <item>Hold Talent</item>
+        <item>Hold Shake</item>
+        <item>Hold Sage</item>
+        <item>Hold Nature</item>
+        <item>Hold Star</item>
+    </string-array>
+    <string-array name="wisdom">
+        <item>Don\'t spend a $1.00\'s worth of time on a $.10 decision. </item>
+        <item>Time flies. It\'s up to you to be the navigator.</item>
+        <item>Time is life. To waste your time is to waste your life.</item>
+        <item>No man was ever wise by chance. </item>
+        <item>How we spend our days is, of course, how we spend our lives.</item>
+        <item>There is no right way to do the wrong thing.</item>
+        <item>Do today what must be done. Your tomorrow may never come. </item>
+        <item>Time lost is never found again.</item>
+        <item>You can\'t catch one hog when you\'re chasing two.</item>
+        <item>All the flowers of all of the tomorrows are in the seeds of today.</item>
+        <item>If it weren\'t for the last minute, a lot of things wouldn\'t get done.</item>
+        <item>Work expands so as to fill the time available for its completion.</item>
+        <item>The bad news is time flies. The good news is you\'re the pilot.</item>
+        <item>Those who make the worst of their time most complain about its shortness.</item>
+        <item>We say we waste time, but that is impossible. We waste ourselves.</item>
+        <item>Regret for wasted time is more wasted time.</item>
+        <item>As if you could kill time without injuring eternity!</item>
+        <item>Whatever begins, also ends.</item>
+        <item>The years teach much which the days never know.</item>
+        <item>Time is an illusion. Lunchtime doubly so.</item>
+        <item>Grow old along with me! The best is yet to be.</item>
+        <item>I\'ve been on a calendar, but never on time.</item>
+        <item>Time spent with cats is never wasted.</item>
+        <item>No time like the present.</item>
+        <item>Time is the only comforter for the loss of a mother.</item>
+        <item>To live is so startling it leaves little time for anything else.</item>
+        <item>Time makes more converts than reason.</item>
+        <item>An unexamined life is not worth living.</item>
+        <item>He not busy being born is busy dying.</item>
+        <item>The mass of men lead lives of quiet desperation. </item>
+        <item>Whatever you are, be a good one.</item>
+    </string-array>
+
+</resources>

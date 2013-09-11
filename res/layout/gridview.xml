@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:selectAllOnFocus="true"
+            android:text="您选择的图标是:"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/iv_type_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+             android:background="@android:color/transparent"
+            android:src="@drawable/type_default_work" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="4dip"
+        android:columnWidth="50dp"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:numColumns="auto_fit"
+        android:fadingEdge="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp" />
+
+</LinearLayout>

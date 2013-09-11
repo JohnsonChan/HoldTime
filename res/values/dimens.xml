@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="wxf_basic_text_size">16.0dip</dimen>
+    <dimen name="wxf_title_text_size">19.0dip</dimen>
+    <dimen name="wxf_small_text_size">14.0dip</dimen>
+    <dimen name="title_bar_text_size">18sp</dimen>
+    <dimen name="picker_text_size">23px</dimen>
+    <dimen name="picker_title_text_size">20sp</dimen>
+
+</resources>

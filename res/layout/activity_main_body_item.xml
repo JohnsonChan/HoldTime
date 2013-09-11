@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/task_item_bg"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/civ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:maxHeight="47dp"
+        android:maxWidth="47dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="5dp"
+        android:scaleType="fitCenter" />
+
+    <ImageView
+        android:id="@+id/priority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="10dp" />
+
+    <TextView
+        android:id="@+id/ctv"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/priority"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_toRightOf="@id/civ"
+        android:padding="8dp"
+        android:textColor="#000000" />
+
+</RelativeLayout>

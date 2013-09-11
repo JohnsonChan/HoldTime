@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="#fff"
+    >
+
+    <FrameLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp" android:background="@drawable/picker_bar">
+
+        <ImageButton
+            android:id="@+id/ib_popwin_select_cancel"
+            android:layout_width="40dp" 
+            android:layout_height="40dp" android:layout_marginLeft="20dp"
+            android:layout_gravity="left|center_vertical" android:background="#0000"
+            android:src="@drawable/picker_cancel" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:gravity="center"
+            android:layout_gravity="center" android:textColor="#fff" android:textSize="@dimen/picker_title_text_size"
+            android:id="@+id/tv_popwin_title"/>
+
+        <ImageButton
+            android:id="@+id/ib_popwin_select_ok"
+            android:layout_width="40dp"
+            android:layout_height="40dp"  android:layout_marginRight="20dp"
+            android:layout_gravity="right|center_vertical"  android:background="#0000"
+            android:src="@drawable/picker_save" />
+    </FrameLayout>
+
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/fl_popwin_content">
+        
+    </FrameLayout>
+
+
+
+</LinearLayout>

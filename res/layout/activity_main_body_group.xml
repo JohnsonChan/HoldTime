@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/task_item_bg"
+    android:fadingEdge="none"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/giv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="10dp"
+        android:src="@drawable/task_box_fold" />
+
+    <TextView
+        android:id="@+id/gtv"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/giv"
+        android:padding="10dp"
+        android:textColor="#000000" />
+
+</RelativeLayout>
