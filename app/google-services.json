@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "311533821284",
+    "firebase_url": "https://uncleandroid-14347.firebaseio.com",
+    "project_id": "uncleandroid-14347",
+    "storage_bucket": "uncleandroid-14347.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311533821284:android:67eb70088310babe",
+        "android_client_info": {
+          "package_name": "uncle.android.holdtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311533821284-e14elka1p41b919nlh7bgsve3binm780.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO99TKGWd4_AyGBPj52WARv_fe0JwwJpM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

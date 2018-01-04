@@ -1,4 +1,0 @@
-HoldTime
-========
-
-A Android Application

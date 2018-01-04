@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/tab_top"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_above="@android:id/tabs"
+            android:layout_below="@id/tab_top"
+            >
+        </FrameLayout>
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="55.0dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/hold_footer_bg" >
+        </TabWidget>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_above="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id"/>
+    </RelativeLayout>
+
+</TabHost>
